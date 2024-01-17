@@ -1,1 +1,1 @@
-# COSC224Lab1
+Michael Hierco
