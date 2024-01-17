@@ -4,15 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <style>
+   * {
+      margin: 0;
+      padding: 0;
+    }
+    body {background-color: powderblue;}
+    .footer {
+      position: absolute;
+      color: red;
+      bottom: 0;
+      background: black;
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      font-size: 100px;
+      flex-direction: column;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      background: pink;
+      color: white;
+      font-size: 20px;
+    }
+    </style>
 </head>
 <body>
-  <header>this is header</header>
+  <header class="header">this is header</header>
 
   <div class="banner">
     BANNER
   </div>
 
-  <footer>this is the footer</footer>
+  <footer class="footer">this is the footer</footer>
   
 </body>
 </html>
